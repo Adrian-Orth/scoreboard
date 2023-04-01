@@ -1,0 +1,126 @@
+body {
+    background-color: #1B244A;
+    margin: 0;
+    background-image: url(https://www.kika.de/spiele/spiele-108_v-tlarge169_w-1920_zc-a4147743.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+}
+
+@font-face {
+    font-family: cursedtimer;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+.cursed {
+    font-family: cursedtimer;
+    font-size: 20px
+}
+
+.home-score {
+    width: 170px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.head1 {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    width: 165px;
+    height: 36px;
+    color: #EEEEEE;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.button-section {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 170px;
+    height:45px;
+    margin-top: 30px;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #9AABD8;
+    background-color: #1B244A;
+}
+
+#score-guest {
+    color: #F94F6D;
+    font-family: cursedtimer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+}
+
+#score-home {
+    color: #F94F6D;
+    font-family: cursedtimer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+}
+
+#container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px; 
+}
+
+#new-game {
+    width: 400px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #9AABD8;
+    background-color: #1B244A;
+}
+
+#newgame-section {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 50px;
+}
+
+#hope {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+button:hover {
+    font-size: 25px;
+}
+
+#new-game:hover {
+      font-size: 20px;
+     
+}
